@@ -1,7 +1,10 @@
 class GamesController < ApplicationController
   def new
-    @letter = {}
+    @letter = params{:new}
   end
+
   def score
+    @score = 
+
   end
 end
